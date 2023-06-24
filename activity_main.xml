@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+
+
+
+    <Switch
+        android:id="@+id/switchBtn"
+        android:layout_width="100dp"
+        android:layout_height="82dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:shadowColor="@color/purple_200"
+        android:text="Start"
+        android:textSize="24sp"
+        android:textOff="Off"
+        android:textOn="On"
+        android:trackTint="@color/purple_200"
+        android:textColor="@color/purple_200" />
+
+
+
+
+</RelativeLayout>
